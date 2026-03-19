@@ -1,150 +1,116 @@
-Problem Statement: AI-Powered Insurance for India’s Gig Economy<br>
-Topic: AI-Powered Parametric Insurance Platform for Gig Workers
- 1. Problem Statement
-India’s gig economy relies heavily on delivery partners working across food, grocery, and e-commerce platforms. However, these workers are highly vulnerable to external disruptions such as extreme weather conditions, pollution, and unexpected social restrictions like curfews or strikes. These disruptions can reduce their working hours and lead to a loss of up to 20–30% of their income, with no existing financial safety net. 
+<h1 align="center">AI-Powered Parametric Insurance Platform</h1>
 
-While building a system to compensate such losses, a major challenge arises in the form of fraudulent claims. Malicious users may manipulate the system using GPS spoofing, falsified activity data, and coordinated multi-account strategies, enabling large-scale extraction of fraudulent payouts.
+<p align="center">
+  Protecting gig workers from income loss with intelligent automation & fraud detection
+</p>
 
-This creates a dual challenge:
-Protect genuine delivery workers from income loss
-Prevent fraudulent claims and ensure system integrity
-To address this, we propose an AI-powered parametric insurance platform that automates claim detection and payouts while incorporating a robust fraud detection mechanism.
+<hr>
 
-2. Persona-Based Scenarios
- Persona 1: Genuine Delivery Partner (Ravi)
-Works in food delivery
-Faces heavy rain/flood conditions
-Unable to complete deliveries
-Suffers real income loss
+<h2>Problem Statement</h2>
+<p>
+India’s gig economy relies heavily on delivery partners who face income loss due to
+external disruptions such as weather conditions, pollution, and curfews.
+At the same time, fraudulent users exploit such systems using GPS spoofing,
+fake activity logs, and coordinated multi-account strategies.
+</p>
 
-System Response:
-Detect disruption via APIs
-Validate worker activity
-Automatically trigger payout
+<p>
+This creates a dual challenge: ensuring protection for genuine users while
+preventing financial losses due to fraud.
+</p>
 
-Persona 2: Fraudulent User (Aman)
-Uses GPS spoofing tools
-Fakes presence in affected zones
-Creates multiple accounts
-Attempts false claims
+<hr>
 
-Risk:
-Financial loss
-System exploitation
+<h2Personas</h2>
 
-Persona 3: Platform Admin
-Needs accurate claim validation
-Wants minimal fraud and false positives
+<ul>
+  <li><b>Ravi (Genuine Worker):</b> Faces real disruptions and needs fair compensation</li>
+  <li><b>Aman (Fraudster):</b> Uses spoofing and fake claims to exploit system</li>
+  <li><b>Admin:</b> Needs accuracy, trust, and fraud prevention</li>
+</ul>
 
-Goal:
-Maintain system trust and financial sustainability
+<hr>
 
-3. Workflow of the System
-User Onboarding → Location Tracking → Risk Profiling → 
-Disruption Detection → Claim Trigger → Fraud Check → Payout
+<h2>Workflow</h2>
 
-Detailed Flow:
-User registers and selects weekly insurance plan
-System continuously tracks location and activity
-External APIs detect disruptions (weather, traffic, etc.)
-If disruption conditions are met → claim is auto-triggered
-Fraud detection module evaluates authenticity
-If verified → payout processed instantly
+<pre>
+User → Tracking → Risk Analysis → Disruption Detection → Fraud Check → Payout
+</pre>
 
-4. Adversarial Defense & Anti-Spoofing Strategy
-1. Multi-Layer Location Verification
-GPS validation + network triangulation
-Detection of sudden location jumps
-Speed consistency checks
+<hr>
 
-2. Device-Level Security
-Unique device ID tracking
-Detection of multiple accounts per device
-Emulator/spoofing tool identification
+<h2>Adversarial Defense & Anti-Spoofing Strategy</h2>
 
-3. Sensor Fusion
-Accelerometer + gyroscope data
-Detect realistic movement patterns
-Identify “fake stationary or teleporting behavior”
+<h3>Multi-Layer Verification</h3>
+<ul>
+  <li>GPS + Network validation</li>
+  <li>Speed & movement consistency checks</li>
+</ul>
 
-4. Behavioral Analysis (Anomaly Detection)
-Unusual claim frequency
-Repeated claims from same zones
-Suspicious working patterns
+<h3>Device-Level Security</h3>
+<ul>
+  <li>Device ID tracking</li>
+  <li>Multiple account detection</li>
+</ul>
 
-5. Fraud Ring Detection
-Graph-based clustering of accounts
-Identify shared:
-IP addresses
-Devices
-Location patterns
+<h3>Behavioral Analysis</h3>
+<ul>
+  <li>Anomaly detection in claims</li>
+  <li>Suspicious activity patterns</li>
+</ul>
 
-6. Risk Scoring System
-Each user assigned a dynamic risk score:
--> Low Risk → Allow
-->Medium Risk → Monitor
--> High Risk → Flag / Block
+<h3>Fraud Ring Detection</h3>
+<ul>
+  <li>Graph-based clustering of users</li>
+  <li>IP and device linkage analysis</li>
+</ul>
 
-7. False Positive Handling
-Multi-step verification (OTP, activity check)
-Manual review for edge cases
-Gradual restriction instead of immediate ban
+<h3>Risk Scoring</h3>
+<p>
+Low Risk → Allow <br>
+Medium Risk → Monitor <br>
+High Risk → Flag
+</p>
 
-5. Weekly Premium Model
-Subscription-based weekly insurance
-Premium calculated based on:
-->Location risk (weather-prone areas)
-->Worker activity patterns
-->Historical disruption data
+<hr>
 
-Parametric Triggers:
-Rainfall threshold exceeded
-Air quality beyond safe limits
-Curfew/zone closure detected
-Once triggered → automatic payout
+<h2> Weekly Premium Model</h2>
+<ul>
+  <li>Dynamic pricing based on risk</li>
+  <li>Triggered payouts via parametric events</li>
+</ul>
 
-6. AI/ML Integration
-->Predictive risk modeling
-->Dynamic premium calculation
-->Anomaly detection for fraud
-->>Pattern recognition for fraud rings
+<hr>
 
-7. Tech Stack
-Frontend: React / Flutter
-Backend: Node.js / Django
-Database: MongoDB / PostgreSQL
-AI/ML: Python (Scikit-learn / TensorFlow)
-APIs: Weather API, Traffic API (mock/real)
+<h2>AI/ML Integration</h2>
+<ul>
+  <li>Predictive risk modeling</li>
+  <li>Anomaly detection</li>
+  <li>Fraud pattern recognition</li>
+</ul>
 
-8. Development Plan
-Phase 1:
-Idea, personas, workflow, fraud strategy
-Phase 2:
-Core system implementation
-Premium + claims system
-Phase 3:
-Advanced fraud detection
-Dashboard + optimization
+<hr>
 
-9. Why Our Solution Stands Out?
-a) Multi-layer fraud detection system
-b) Fully automated parametric insurance model
-c) Real-time claim triggering and payout
-d) Balanced approach between security and user fairness
+<h2>Tech Stack</h2>
+<ul>
+  <li><b>Frontend:</b> React / Flutter</li>
+  <li><b>Backend:</b> Node.js / Django</li>
+  <li><b>Database:</b> MongoDB / PostgreSQL</li>
+  <li><b>AI/ML:</b> Python</li>
+</ul>
 
+<hr>
 
+<h2>Why Our Solution Stands Out?</h2>
+<ul>
+  <li>Multi-layer fraud detection</li>
+  <li>Automated parametric insurance</li>
+  <li>Real-time payouts</li>
+  <li>User-first design with fairness</li>
+</ul>
 
+<hr>
 
-
-
-
-
-
-
-
-c
-
-
-
-
-
+<p align="center">
+  ⭐ Built for Guidewire DEVTrails Hackathon 2026
+</p>
