@@ -1,4 +1,4 @@
-Problem Statement: AI-Powered Insurance for India’s Gig Economy
+Problem Statement: AI-Powered Insurance for India’s Gig Economy<br>
 Topic: AI-Powered Parametric Insurance Platform for Gig Workers
  1. Problem Statement
 India’s gig economy relies heavily on delivery partners working across food, grocery, and e-commerce platforms. However, these workers are highly vulnerable to external disruptions such as extreme weather conditions, pollution, and unexpected social restrictions like curfews or strikes. These disruptions can reduce their working hours and lead to a loss of up to 20–30% of their income, with no existing financial safety net. 
