@@ -21,7 +21,7 @@ preventing financial losses due to fraud.
 
 <hr>
 
-<h2Personas</h2>
+<h2>2Personas</h2>
 
 <ul>
   <li><b>Ravi (Genuine Worker):</b> Faces real disruptions and needs fair compensation</li>
